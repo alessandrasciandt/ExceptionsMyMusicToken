@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
 @RestController
-@RequestMapping("/api/v1/token")
+@RequestMapping("/v1/token")
 public class TokenController {
 
     private static final Logger logger = LoggerFactory.getLogger(TokenAuthorizerController.class);
